@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stopwatch </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A professional, interactive, and user-friendly stopwatch web application with lap tracking, built for SkillCraft Technology.">
+  <link rel="stylesheet" href="stopwatch.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-blur"></div>
+  <header class="header-bar">
+    <div class="header-content">
+    </div>
+  </header>
+  <main>
+    <div class="stopwatch-container neon-border">
+      <h1 class="neon-title">⏱️ Stopwatch</h1>
+      <div class="display neon-glow" id="display">00:00:00.00</div>
+      <div class="controls">
+        <button id="startBtn" class="neon-btn">Start</button>
+        <button id="pauseBtn" class="neon-btn" disabled>Pause</button>
+        <button id="resetBtn" class="neon-btn" disabled>Reset</button>
+        <button id="lapBtn" class="neon-btn" disabled>Lap</button>
+      </div>
+      <ul class="laps" id="laps"></ul>
+    </div>
+  </main>
+  <footer class="footer-bar">
+    <span>© 2025 | Built by Ankit Kumar</span>
+  </footer>
+  <script src="stopwatch.js"></script>
+</body>
+
+</html></html>
